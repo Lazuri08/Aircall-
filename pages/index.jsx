@@ -1,17 +1,17 @@
 
 import React, { useState, useEffect } from 'react';
 import { BrowserRouter as Router, Route, Routes, Link } from 'react-router-dom';
-import ActivityFeed from './components/ActivityFeed.jsx';
-import Archive from './components/Archive.jsx';
-import ActivityDetail from './components/ActivityDetail.jsx';
-import CallDetails from './components/CallDetails.jsx';
-import Contacts from './components/Contacts.jsx';
-import Dialpad from './components/Dialpad.jsx';
-import Settings from './components/Settings.jsx';
-import Voicemail from './components/Voicemail.jsx';
-import Header from './Header.jsx';
-import BottomNavbar from './components/BottomNavbar.jsx';
-import { getActivities, updateActivity } from './api';
+import ActivityFeed from '../src/components/ActivityFeed.jsx';
+import Archive from '../src/components/Archive.jsx';
+import ActivityDetail from '../src/components/ActivityDetail.jsx';
+import CallDetails from '../src/components/CallDetails.jsx';
+import Contacts from '../src/components/Contacts.jsx';
+import Dialpad from '../src/components/Dialpad.jsx';
+import Settings from '../src/components/Settings.jsx';
+import Voicemail from '../src/components/Voicemail.jsx';
+import Header from '../src/Header.jsx';
+import BottomNavbar from '../src/components/BottomNavbar.jsx';
+import { getActivities, updateActivity } from '../src/api';
 import moment from 'moment/moment.js';
 
 
